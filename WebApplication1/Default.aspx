@@ -6,6 +6,7 @@
 <head runat="server">
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link rel="stylesheet" type="text/css" href="main.css" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"/>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
@@ -16,9 +17,34 @@
         <div>
         </div>
     </form>
-    <div class="container-fluid">
-    <h1>My CIS3342 Server-Side Page</h1>
-    <p class="bg-primary">This is some text.</p>
-</div>
+    <div class="jumbotron text-center">
+        <h1>CIS 3342 Server-Side Page</h1>
+        <h2>Duc Tran</h2>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-4">
+                <h3>Project 1</h3>
+                <p>Area for Project 1</p>
+            </div>
+
+            <div class="col-sm-4">
+                <h3>Project 2</h3>
+                <p>Area for Project 2</p>
+            </div>
+
+            <div class="col-sm-4">
+                <h3>Project 3</h3>
+                <p>Area for Project 3</p>
+            </div>
+
+            <div class="col-sm-4">
+                <h3>Project 4</h3>
+                <p>Area for Project 4</p>
+            </div>
+
+        </div>
+    </div>
 </body>
 </html>

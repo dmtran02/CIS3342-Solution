@@ -1,0 +1,35 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+}
+
+.jumbotron {
+    margin-bottom: 2rem !important;
+    background-color: lightgrey !important;
+    border-radius: .3rem !important;
+}
+
+@media (min-width: 576px) {
+    .jumbotron {
+        padding: 4rem 2rem!important;
+    }
+}
+
+.text-center {
+    text-align: center!important;
+}
+
+@media (min-width: 576px) {
+    .col-sm-4 {
+        flex: 0 0 33.333333% !important;
+        max-width: 33.333333% !important;
+
+    }
+}
+
+.col-sm-4 {
+    position: relative !important;
+    width: 100% !important;
+    padding-right: 15px !important;
+    padding-left: 15px !important;
+}
